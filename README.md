@@ -4,7 +4,7 @@ Authors: Jeremy Shen, Hunter Pesin
 
 Description: Python program that emulates a rudimentary version of 8ball using the physics of simple collisions. This program uses Pymunk and Pygame solely for the purpose of simulating the balls. All position updating and collision handling are calculated manually. We attempt to best replicate the rules or 8ball, but we are by no means expert 8ball players.
 
-Installation Requirements: Unix; download and unzip the executables, either click on the executable from the file explorer or use command line ./
+Installation Requirements: Unix; download and unzip the executables, either click on the executable from the file explorer or use command line `./` Depending on your device's setup (specifically anti-malware software), it might be necessary to grant executable permissions `chmod +x pool`
 
 Usage: Before starting the users are prompted to set the friction coefficient and elasticity constant.* To hit the cue ball while playing, the player clicks in the direction that they wish to hit the ball. The distance between the click and the cue ball determines the magnitude of the impulse applied and consequently initial velocity of the cue ball (up to a preset maximum).
 
